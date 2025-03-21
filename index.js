@@ -37,17 +37,17 @@ let lastWin = null;
 let transactions = [];
 
 const SYMBOLS = [
-  { id: '10', name: '10', color: '#FF6B6B', image: '/images/10.png' },
-  { id: 'J', name: 'J', color: '#4ECDC4', image: '/images/J.png' },
-  { id: 'Q', name: 'Q', color: '#FFD166', image: '/images/Q.png' },
-  { id: 'K', name: 'K', color: '#F86624', image: '/images/K.png' },
-  { id: 'A', name: 'A', color: '#7209B7', image: '/images/A.png' },
-  { id: 'Solana', name: 'Solana', color: '#9945FF', image: '/images/solana-sol-logo.png' },
-  { id: 'Pepe', name: 'Pepe', color: '#54D62C', image: '/images/pepe-pepe-logo.png' },
-  { id: 'Trump', name: 'Trump', color: '#FFC107', image: '/images/27872.png' },
-  { id: 'Bonk', name: 'Bonk', color: '#FF9800', image: '/images/bonk1-bonk-logo.png' },
-  { id: 'PopCat', name: 'PopCat', color: '#F72585', image: '/images/popcat-sol-popcat-logo.png' },
-  { id: 'Dogwifhat', name: 'Dogwifhat', color: '#3A86FF', image: '/images/28ae4de5c2e88c6ce633e764eb731a868d3340caba420fba6b6106a5e24a377e.png' }
+  { id: '10', name: '10', color: '#FF6B6B', image: '/solana-slots/images/10.png' },
+  { id: 'J', name: 'J', color: '#4ECDC4', image: '/solana-slots/images/J.png' },
+  { id: 'Q', name: 'Q', color: '#FFD166', image: '/solana-slots/images/Q.png' },
+  { id: 'K', name: 'K', color: '#F86624', image: '/solana-slots/images/K.png' },
+  { id: 'A', name: 'A', color: '#7209B7', image: '/solana-slots/images/A.png' },
+  { id: 'Solana', name: 'Solana', color: '#9945FF', image: '/solana-slots/images/solana-sol-logo.png' },
+  { id: 'Pepe', name: 'Pepe', color: '#54D62C', image: '/solana-slots/images/pepe-pepe-logo.png' },
+  { id: 'Trump', name: 'Trump', color: '#FFC107', image: '/solana-slots/images/27872.png' },
+  { id: 'Bonk', name: 'Bonk', color: '#FF9800', image: '/solana-slots/images/bonk1-bonk-logo.png' },
+  { id: 'PopCat', name: 'PopCat', color: '#F72585', image: '/solana-slots/images/popcat-sol-popcat-logo.png' },
+  { id: 'Dogwifhat', name: 'Dogwifhat', color: '#3A86FF', image: '/solana-slots/images/28ae4de5c2e88c6ce633e764eb731a868d3340caba420fba6b6106a5e24a377e.png' }
 ];
 
 const PAYOUTS = {
